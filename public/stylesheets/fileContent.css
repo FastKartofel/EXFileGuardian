@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    width: 80%;
+    max-width: 800px;
+    overflow: auto;
+}
+
+.file-content {
+    text-align: left;
+    background-color: #424242;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.file-content pre {
+    white-space: pre-wrap;
+    word-break: break-all;
+    color: #dcdcdc;
+}

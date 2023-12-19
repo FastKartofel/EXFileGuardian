@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="/stylesheets/style.css"> <!-- Assuming same CSS as login -->
+</head>
+<body>
+<div class="form-container">
+    <h1>Register</h1>
+    <form action="/register" method="post" class="form">
+        <div class="input-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+
+        <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <button type="submit" class="submit-btn">Register</button>
+    </form>
+
+    <p class="alternate-link">Already have an account? <a href="/login">Login here</a></p>
+</div>
+</body>
+</html>

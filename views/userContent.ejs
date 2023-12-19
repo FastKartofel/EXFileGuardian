@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Content</title>
+    <link rel="stylesheet" href="/stylesheets/fileContent.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+<div class="content-container">
+    <h1>File Content</h1>
+    <% if (fileContent) { %>
+        <div class="file-content">
+            <pre><%= fileContent %></pre>
+        </div>
+    <% } else { %>
+        <p>No content to display.</p>
+    <% } %>
+</div>
+</body>
+</html>
