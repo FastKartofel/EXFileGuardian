@@ -1,6 +1,6 @@
 # EXFileGuardian
 
-EXFileGuardian is a web application designed for secure file storage and retrieval. Built using Express.js, this application allows users to register, login, and securely search for and access their personal files.
+- EXFileGuardian is a web application designed for secure file storage and retrieval. Built using Express.js, this application allows users to register, login, and securely search for and access their personal files.
 
 ## Features
 
@@ -10,9 +10,6 @@ EXFileGuardian is a web application designed for secure file storage and retriev
 - **Error Handling**: Custom error pages for file not found and server errors.
 
 ### Prerequisites
-
-What things you need to install the software:
-
 - Express.js
 - npm (Node Package Manager)
 
